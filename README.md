@@ -1,8 +1,9 @@
+# 导航条底部进度条
 # TGWebViewController
 TGWebViewController
 # GIF
 ![TGWebViewController](GIF/ScreenImage.gif "TGWebViewController")
-# 网页进度条
+
 ## 把TGWebController 拖到你的工程中 
 ## 导入#import "TGWebViewController.h"
 ```

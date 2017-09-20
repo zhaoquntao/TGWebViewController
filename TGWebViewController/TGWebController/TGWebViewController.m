@@ -33,14 +33,12 @@
     
     
     UIButton *backBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-//    [backBtn setBackgroundImage:[UIImage imageNamed:@"arrow_left"] forState:UIControlStateNormal];
+
     backBtn.frame = CGRectMake(0, 0, 14, 28);
     [backBtn setImage:[UIImage imageNamed:@"arrow_left"] forState:UIControlStateNormal];
     [backBtn addTarget:self action:@selector(backButton:) forControlEvents:UIControlEventTouchUpInside];
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:backBtn];
-    
-    
-//    self.view.frame = CGRectMake(0, 64, self.view.bounds.size.width, self.view.bounds.size.height - 64);
+   
     self.tgWebView = [[WKWebView alloc] initWithFrame:self.view.bounds];
     self.tgWebView.navigationDelegate =self;
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:self.url]];

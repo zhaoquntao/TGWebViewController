@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57322FF91F71283F00298569 /* NSTimer+addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 57322FF41F71283F00298569 /* NSTimer+addition.m */; };
+		57322FFA1F71283F00298569 /* TGWebProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 57322FF61F71283F00298569 /* TGWebProgressLayer.m */; };
+		57322FFB1F71283F00298569 /* TGWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57322FF81F71283F00298569 /* TGWebViewController.m */; };
+		575CD7A61F6BB1CD00463B78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 575CD7A51F6BB1CD00463B78 /* main.m */; };
+		575CD7A91F6BB1CD00463B78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 575CD7A81F6BB1CD00463B78 /* AppDelegate.m */; };
+		575CD7AC1F6BB1CD00463B78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 575CD7AB1F6BB1CD00463B78 /* ViewController.m */; };
+		575CD7AF1F6BB1CD00463B78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 575CD7AD1F6BB1CD00463B78 /* Main.storyboard */; };
+		575CD7B11F6BB1CD00463B78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 575CD7B01F6BB1CD00463B78 /* Assets.xcassets */; };
+		575CD7B41F6BB1CD00463B78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 575CD7B21F6BB1CD00463B78 /* LaunchScreen.storyboard */; };
+		575CD7BF1F6BB1CD00463B78 /* TGWebViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 575CD7BE1F6BB1CD00463B78 /* TGWebViewControllerTests.m */; };
+		575CD7CA1F6BB1CD00463B78 /* TGWebViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 575CD7C91F6BB1CD00463B78 /* TGWebViewControllerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		575CD7BB1F6BB1CD00463B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 575CD7991F6BB1CD00463B78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 575CD7A01F6BB1CD00463B78;
+			remoteInfo = TGWebViewController;
+		};
+		575CD7C61F6BB1CD00463B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 575CD7991F6BB1CD00463B78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 575CD7A01F6BB1CD00463B78;
+			remoteInfo = TGWebViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57322FF31F71283F00298569 /* NSTimer+addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+addition.h"; sourceTree = "<group>"; };
+		57322FF41F71283F00298569 /* NSTimer+addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+addition.m"; sourceTree = "<group>"; };
+		57322FF51F71283F00298569 /* TGWebProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGWebProgressLayer.h; sourceTree = "<group>"; };
+		57322FF61F71283F00298569 /* TGWebProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGWebProgressLayer.m; sourceTree = "<group>"; };
+		57322FF71F71283F00298569 /* TGWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGWebViewController.h; sourceTree = "<group>"; };
+		57322FF81F71283F00298569 /* TGWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGWebViewController.m; sourceTree = "<group>"; };
+		575CD7A11F6BB1CD00463B78 /* TGWebViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TGWebViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		575CD7A51F6BB1CD00463B78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		575CD7A71F6BB1CD00463B78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		575CD7A81F6BB1CD00463B78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		575CD7AA1F6BB1CD00463B78 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		575CD7AB1F6BB1CD00463B78 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		575CD7AE1F6BB1CD00463B78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		575CD7B01F6BB1CD00463B78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		575CD7B31F6BB1CD00463B78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		575CD7B51F6BB1CD00463B78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		575CD7BA1F6BB1CD00463B78 /* TGWebViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGWebViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		575CD7BE1F6BB1CD00463B78 /* TGWebViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGWebViewControllerTests.m; sourceTree = "<group>"; };
+		575CD7C01F6BB1CD00463B78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		575CD7C51F6BB1CD00463B78 /* TGWebViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGWebViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		575CD7C91F6BB1CD00463B78 /* TGWebViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGWebViewControllerUITests.m; sourceTree = "<group>"; };
+		575CD7CB1F6BB1CD00463B78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		575CD79E1F6BB1CD00463B78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		575CD7B71F6BB1CD00463B78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		575CD7C21F6BB1CD00463B78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57322FF21F71283F00298569 /* TGWebController */ = {
+			isa = PBXGroup;
+			children = (
+				57322FF71F71283F00298569 /* TGWebViewController.h */,
+				57322FF81F71283F00298569 /* TGWebViewController.m */,
+				57322FF51F71283F00298569 /* TGWebProgressLayer.h */,
+				57322FF61F71283F00298569 /* TGWebProgressLayer.m */,
+				57322FF31F71283F00298569 /* NSTimer+addition.h */,
+				57322FF41F71283F00298569 /* NSTimer+addition.m */,
+			);
+			path = TGWebController;
+			sourceTree = "<group>";
+		};
+		575CD7981F6BB1CD00463B78 = {
+			isa = PBXGroup;
+			children = (
+				575CD7A31F6BB1CD00463B78 /* TGWebViewController */,
+				575CD7BD1F6BB1CD00463B78 /* TGWebViewControllerTests */,
+				575CD7C81F6BB1CD00463B78 /* TGWebViewControllerUITests */,
+				575CD7A21F6BB1CD00463B78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		575CD7A21F6BB1CD00463B78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				575CD7A11F6BB1CD00463B78 /* TGWebViewController.app */,
+				575CD7BA1F6BB1CD00463B78 /* TGWebViewControllerTests.xctest */,
+				575CD7C51F6BB1CD00463B78 /* TGWebViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		575CD7A31F6BB1CD00463B78 /* TGWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				57322FF21F71283F00298569 /* TGWebController */,
+				575CD7A71F6BB1CD00463B78 /* AppDelegate.h */,
+				575CD7A81F6BB1CD00463B78 /* AppDelegate.m */,
+				575CD7AA1F6BB1CD00463B78 /* ViewController.h */,
+				575CD7AB1F6BB1CD00463B78 /* ViewController.m */,
+				575CD7AD1F6BB1CD00463B78 /* Main.storyboard */,
+				575CD7B01F6BB1CD00463B78 /* Assets.xcassets */,
+				575CD7B21F6BB1CD00463B78 /* LaunchScreen.storyboard */,
+				575CD7B51F6BB1CD00463B78 /* Info.plist */,
+				575CD7A41F6BB1CD00463B78 /* Supporting Files */,
+			);
+			path = TGWebViewController;
+			sourceTree = "<group>";
+		};
+		575CD7A41F6BB1CD00463B78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				575CD7A51F6BB1CD00463B78 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		575CD7BD1F6BB1CD00463B78 /* TGWebViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				575CD7BE1F6BB1CD00463B78 /* TGWebViewControllerTests.m */,
+				575CD7C01F6BB1CD00463B78 /* Info.plist */,
+			);
+			path = TGWebViewControllerTests;
+			sourceTree = "<group>";
+		};
+		575CD7C81F6BB1CD00463B78 /* TGWebViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				575CD7C91F6BB1CD00463B78 /* TGWebViewControllerUITests.m */,
+				575CD7CB1F6BB1CD00463B78 /* Info.plist */,
+			);
+			path = TGWebViewControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		575CD7A01F6BB1CD00463B78 /* TGWebViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 575CD7CE1F6BB1CD00463B78 /* Build configuration list for PBXNativeTarget "TGWebViewController" */;
+			buildPhases = (
+				575CD79D1F6BB1CD00463B78 /* Sources */,
+				575CD79E1F6BB1CD00463B78 /* Frameworks */,
+				575CD79F1F6BB1CD00463B78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TGWebViewController;
+			productName = TGWebViewController;
+			productReference = 575CD7A11F6BB1CD00463B78 /* TGWebViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		575CD7B91F6BB1CD00463B78 /* TGWebViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 575CD7D11F6BB1CD00463B78 /* Build configuration list for PBXNativeTarget "TGWebViewControllerTests" */;
+			buildPhases = (
+				575CD7B61F6BB1CD00463B78 /* Sources */,
+				575CD7B71F6BB1CD00463B78 /* Frameworks */,
+				575CD7B81F6BB1CD00463B78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				575CD7BC1F6BB1CD00463B78 /* PBXTargetDependency */,
+			);
+			name = TGWebViewControllerTests;
+			productName = TGWebViewControllerTests;
+			productReference = 575CD7BA1F6BB1CD00463B78 /* TGWebViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		575CD7C41F6BB1CD00463B78 /* TGWebViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 575CD7D41F6BB1CD00463B78 /* Build configuration list for PBXNativeTarget "TGWebViewControllerUITests" */;
+			buildPhases = (
+				575CD7C11F6BB1CD00463B78 /* Sources */,
+				575CD7C21F6BB1CD00463B78 /* Frameworks */,
+				575CD7C31F6BB1CD00463B78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				575CD7C71F6BB1CD00463B78 /* PBXTargetDependency */,
+			);
+			name = TGWebViewControllerUITests;
+			productName = TGWebViewControllerUITests;
+			productReference = 575CD7C51F6BB1CD00463B78 /* TGWebViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		575CD7991F6BB1CD00463B78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = QR;
+				TargetAttributes = {
+					575CD7A01F6BB1CD00463B78 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 77QN48H22R;
+						ProvisioningStyle = Automatic;
+					};
+					575CD7B91F6BB1CD00463B78 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 77QN48H22R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 575CD7A01F6BB1CD00463B78;
+					};
+					575CD7C41F6BB1CD00463B78 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 77QN48H22R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 575CD7A01F6BB1CD00463B78;
+					};
+				};
+			};
+			buildConfigurationList = 575CD79C1F6BB1CD00463B78 /* Build configuration list for PBXProject "TGWebViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 575CD7981F6BB1CD00463B78;
+			productRefGroup = 575CD7A21F6BB1CD00463B78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				575CD7A01F6BB1CD00463B78 /* TGWebViewController */,
+				575CD7B91F6BB1CD00463B78 /* TGWebViewControllerTests */,
+				575CD7C41F6BB1CD00463B78 /* TGWebViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		575CD79F1F6BB1CD00463B78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				575CD7B41F6BB1CD00463B78 /* LaunchScreen.storyboard in Resources */,
+				575CD7B11F6BB1CD00463B78 /* Assets.xcassets in Resources */,
+				575CD7AF1F6BB1CD00463B78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		575CD7B81F6BB1CD00463B78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		575CD7C31F6BB1CD00463B78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		575CD79D1F6BB1CD00463B78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				575CD7AC1F6BB1CD00463B78 /* ViewController.m in Sources */,
+				57322FFA1F71283F00298569 /* TGWebProgressLayer.m in Sources */,
+				575CD7A91F6BB1CD00463B78 /* AppDelegate.m in Sources */,
+				57322FF91F71283F00298569 /* NSTimer+addition.m in Sources */,
+				57322FFB1F71283F00298569 /* TGWebViewController.m in Sources */,
+				575CD7A61F6BB1CD00463B78 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		575CD7B61F6BB1CD00463B78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				575CD7BF1F6BB1CD00463B78 /* TGWebViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		575CD7C11F6BB1CD00463B78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				575CD7CA1F6BB1CD00463B78 /* TGWebViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		575CD7BC1F6BB1CD00463B78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 575CD7A01F6BB1CD00463B78 /* TGWebViewController */;
+			targetProxy = 575CD7BB1F6BB1CD00463B78 /* PBXContainerItemProxy */;
+		};
+		575CD7C71F6BB1CD00463B78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 575CD7A01F6BB1CD00463B78 /* TGWebViewController */;
+			targetProxy = 575CD7C61F6BB1CD00463B78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		575CD7AD1F6BB1CD00463B78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				575CD7AE1F6BB1CD00463B78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		575CD7B21F6BB1CD00463B78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				575CD7B31F6BB1CD00463B78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		575CD7CC1F6BB1CD00463B78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		575CD7CD1F6BB1CD00463B78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		575CD7CF1F6BB1CD00463B78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 77QN48H22R;
+				INFOPLIST_FILE = TGWebViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QuRongCompany.TGWebViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		575CD7D01F6BB1CD00463B78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 77QN48H22R;
+				INFOPLIST_FILE = TGWebViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QuRongCompany.TGWebViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		575CD7D21F6BB1CD00463B78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 77QN48H22R;
+				INFOPLIST_FILE = TGWebViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QuRongCompany.TGWebViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGWebViewController.app/TGWebViewController";
+			};
+			name = Debug;
+		};
+		575CD7D31F6BB1CD00463B78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 77QN48H22R;
+				INFOPLIST_FILE = TGWebViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QuRongCompany.TGWebViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGWebViewController.app/TGWebViewController";
+			};
+			name = Release;
+		};
+		575CD7D51F6BB1CD00463B78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 77QN48H22R;
+				INFOPLIST_FILE = TGWebViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QuRongCompany.TGWebViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TGWebViewController;
+			};
+			name = Debug;
+		};
+		575CD7D61F6BB1CD00463B78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 77QN48H22R;
+				INFOPLIST_FILE = TGWebViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QuRongCompany.TGWebViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TGWebViewController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		575CD79C1F6BB1CD00463B78 /* Build configuration list for PBXProject "TGWebViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				575CD7CC1F6BB1CD00463B78 /* Debug */,
+				575CD7CD1F6BB1CD00463B78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		575CD7CE1F6BB1CD00463B78 /* Build configuration list for PBXNativeTarget "TGWebViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				575CD7CF1F6BB1CD00463B78 /* Debug */,
+				575CD7D01F6BB1CD00463B78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		575CD7D11F6BB1CD00463B78 /* Build configuration list for PBXNativeTarget "TGWebViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				575CD7D21F6BB1CD00463B78 /* Debug */,
+				575CD7D31F6BB1CD00463B78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		575CD7D41F6BB1CD00463B78 /* Build configuration list for PBXNativeTarget "TGWebViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				575CD7D51F6BB1CD00463B78 /* Debug */,
+				575CD7D61F6BB1CD00463B78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 575CD7991F6BB1CD00463B78 /* Project object */;
+}

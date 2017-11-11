@@ -18,7 +18,7 @@ TGWebViewController
     [self.navigationController pushViewController:web animated:YES];
  ```  
  
- ###😀😊😎
- 感谢 [AXWebViewController](https://github.com/devedbox/AXWebViewController)
+ ### 😀😊😎
+ ### 感谢 [RxWebViewController](https://github.com/Roxasora/RxWebViewController) 提供的思路
  
  

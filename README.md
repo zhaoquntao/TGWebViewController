@@ -16,9 +16,47 @@ TGWebViewController
     //进度条颜色
     web.progressColor = [UIColor blueColor];
     [self.navigationController pushViewController:web animated:YES];
- ```  
+ ``` 
  
+ ####
+  内部基本原理 
+ ```
+    - (void)initBezierPath {
+    //绘制贝塞尔曲线
+    UIBezierPath *path = [UIBezierPath bezierPath];
+    //起点
+    [path moveToPoint:CGPointMake(0, 3)];
+    //终点
+    [path addLineToPoint:CGPointMake(WIDTH,3)];
+    
+    self.path = path.CGPath;
+    self.strokeEnd = 0;
+    _plusWidth = 0.005;
+    self.lineWidth = 2;
+    self.strokeColor = [UIColor redColor].CGColor;
+    
+    _timer = [NSTimer scheduledTimerWithTimeInterval:ProgressTimeInterval target:self selector:@selector(pathChanged:) userInfo:nil repeats:YES];
+    [_timer tg_pauseTime];
+}
+ ``` 
+ 
+ 
+ ```
+      //在KVO 计算  实际的读取进度时,调用改方法
+    - (void)tg_WebViewPathChanged:(CGFloat)estimatedProgress {
+        self.strokeEnd = estimatedProgress;
+    
+      }
+
+    - (void)tg_startLoad {
+       [_timer tg_webPageTimeWithTimeInterval:ProgressTimeInterval];
+    
+       }
+ ``` 
+ 
+ 
+ --------------
  ### 😀😊😎
- ### 感谢 [RxWebViewController](https://github.com/Roxasora/RxWebViewController) 提供的思路
+ ## 感谢 [RxWebViewController](https://github.com/Roxasora/RxWebViewController) 提供的思路
  
  

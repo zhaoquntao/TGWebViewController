@@ -5,6 +5,7 @@ TGWebViewController
 ![TGWebViewController](GIF/ScreenImage.gif "TGWebViewController")
 
 ## 把TGWebController 拖到你的工程中 
+## 已经适配iPhoneX了哟
 ## 导入#import "TGWebViewController.h"
 ```
     TGWebViewController *web = [[TGWebViewController alloc] init];
@@ -17,5 +18,7 @@ TGWebViewController
     [self.navigationController pushViewController:web animated:YES];
  ```  
  
+ ###😀😊😎
+ 感谢 [AXWebViewController](https://github.com/devedbox/AXWebViewController)
  
  
